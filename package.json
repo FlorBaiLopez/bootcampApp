@@ -7,7 +7,7 @@
     "start": "webpack serve --open --env mode=development",
     "build": "webpack --mode production --env mode=production",
     "lint": "eslint ./ --ignore-pattern .gitignore --ignore-pattern dist --ext js,jsx .",
-    "stylelint": "stylelint '**/*.scss'"
+    "stylelint": "stylelint \"**/*.scss\""
   },
   "author": "",
   "license": "MIT",
