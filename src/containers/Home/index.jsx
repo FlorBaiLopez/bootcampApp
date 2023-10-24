@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import MovieList from 'Components/MovieList';
 
-import getMovies from 'Api/movies';
+import {getMovies} from 'Api/movies';
 
 import './styles.scss';
 
@@ -12,7 +12,7 @@ const Home = () => {
   const initHome = async () => {
     const movies = await getMovies();
 
-    console.log(movies);
+   // console.log(movies);
 
     setMovieList(movies.data.results);
   };

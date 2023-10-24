@@ -1,3 +1,7 @@
 import instance from './config';
 
-export default () => instance.get('discover/movie');
+const getMovies = () => instance.get('discover/movie');
+
+const getMoviesDetails = (id) => instance.get(`movie/${id}`);
+
+export { getMovies, getMoviesDetails };
