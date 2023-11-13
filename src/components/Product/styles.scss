@@ -1,0 +1,59 @@
+@import '../../theme/variables.scss';
+
+.product {
+  background-color: $card-background;
+  border: 1px solid $white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  cursor: pointer;
+  height: 450px;
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px $shadow-color;
+  }
+
+  img {
+    margin-top: 5px;
+    max-width: 180px;
+    max-height: 450px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__title {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__price {
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 660px) {
+    width: 35%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}

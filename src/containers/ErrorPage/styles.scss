@@ -1,0 +1,17 @@
+.error-page {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  font-family: monospace;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+
+  &__image {
+    width: 70%;
+  }
+}

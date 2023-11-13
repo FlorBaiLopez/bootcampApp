@@ -1,0 +1,17 @@
+@import '../../theme/variables.scss';
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: unset;
+  align-items: center;
+  flex-direction: row;
+  gap: 31px;
+
+  &__empty {
+    font-size: 2rem;
+    margin-top: 70px;
+    color: $white;
+  }
+}

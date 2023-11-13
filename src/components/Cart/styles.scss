@@ -1,0 +1,32 @@
+.cart-container {
+  background-color: $card-background;
+  border: 1px solid $white;
+  border-radius: 5px;
+  padding: 1%;
+  text-align: center;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  height: 70px;
+  width: 70%;
+  margin: 0px 4% 2% 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px $shadow-color;
+  }
+
+  &__name {
+    margin-left: 4%;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    width: 45%;
+  }
+}

@@ -1,0 +1,31 @@
+.cart-view {
+  &__title {
+    margin-left: 7%;
+    margin-bottom: 2.5%;
+    font-size: x-large;
+  }
+
+  &__details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+h4 {
+  color: #e90b0b;
+  font-size: 130%;
+  box-shadow: 0 0 15px rgba(202, 13, 13, 0.2);
+  padding: 10px;
+  border: 2px dotted #da5656;
+  border-radius: 3px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}

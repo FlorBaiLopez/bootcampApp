@@ -1,0 +1,42 @@
+@import '../../theme/variables.scss';
+
+.profile-view {
+  background-color: $card-background;
+  border: 1px solid $highlight;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-height: calc(100vh - 200px);
+  width: 70%;
+  min-height: 300px;
+  margin-top: 6%;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: x-large;
+  }
+
+  &__details-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+  }
+
+  &__details p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 30px;
+  }
+}
